@@ -12,7 +12,7 @@ class main {
          println("User initialization went wrong")
       }
       finally {
-         println("Username: ${user.username}")
+         println("Username: ${user?.username}")
          println("Program finished")
       }
    }
